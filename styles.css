@@ -1,0 +1,47 @@
+.right {
+    background-color: blue;
+    width: 40em;
+}
+
+.left {
+    background-color: brown;
+    width: 30em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    margin-top: 50px;
+
+}
+
+button {
+    color: #596D48;
+}
+
+input {
+    border-color: #E5E7EB;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.one {
+    background-color: rgb(201, 134, 151);
+    padding: 30px;
+    font-size: 20px;
+    height: 30vh;
+}
+
+.two {
+    background-color: rgb(134, 161, 236);
+    padding: 30px;
+    height: 20vh;
+}
+
+.three {
+    padding: 30px;
+    height: 21vh;
+}
