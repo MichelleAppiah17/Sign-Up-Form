@@ -1,31 +1,36 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(../fonts/the-font-file.woff);
+  }
+  
+  h1 {
+    font-family: my-cool-font, sans-serif;
+  }
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .right {
+    width: 45vw;
     background-color: blue;
-    width: 40em;
+    display: flex;
+    flex-direction: column;
 }
 
 .left {
     background-color: brown;
-    width: 30em;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    height: 90vh;
-    margin-top: 50px;
-
-}
-
-button {
-    color: #596D48;
-}
-
-input {
-    border-color: #E5E7EB;
+    width: 25vw;
 }
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .one {
@@ -34,14 +39,45 @@ p {
     font-size: 20px;
     height: 30vh;
 }
-
 .two {
-    background-color: rgb(134, 161, 236);
+    background-color: rgb(176, 186, 230); 
+    height: 40vh;
+
+}
+
+.form_text{
+    margin: 30px;
+}
+.main_form_div{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+.form_div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input {
+    border-color:1px #E5E7EB;
+    width: 200px;
+    height: 20px;
+    border-radius: 4px ;
+}
+input:focus{
+    border-color: 1px solid blue;
+}
+input:invalid{
+    border-color: 1px solid red;
+}
+.three {
+    background-color: aquamarine;
     padding: 30px;
     height: 20vh;
 }
-
-.three {
-    padding: 30px;
-    height: 21vh;
+button {
+    color: #596D48;
 }
