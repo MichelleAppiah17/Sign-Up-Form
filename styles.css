@@ -25,7 +25,33 @@ body {
 
 .left {
     background-color: brown;
-    width: 25vw;
+    width: 30vw;
+}
+.footer{
+    position: absolute;
+    bottom: 2px;
+    right: 52em;
+    color: white;
+}
+.link{
+    color: white;
+    font-size: smaller;
+}
+.logo{
+    position: absolute;
+    top: 200px;
+    right: 72%;
+    height: 5em;
+    width: 4em;
+}
+.odin{
+    color: white;
+    position: absolute;
+    top: 220px;
+    right: 69%;
+}
+.odin_logo{
+    background-color: rgb(247, 244, 244) transparent;
 }
 
 p {
@@ -70,7 +96,6 @@ label{
 }
 
 input {
-    border-color:1px #E5E7EB;
     width: 200px;
     height: 20px;
     border-radius: 4px ;
