@@ -51,7 +51,7 @@ body {
     right: 69%;
 }
 .odin_logo{
-    background-color: rgb(36, 35, 2);
+    background-color: rgb(204, 204, 23);
 }
 
 p {
@@ -64,6 +64,7 @@ p {
     padding: 30px;
     font-size: 20px;
     height: 30vh;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,24);
 }
 .two {
     background-color: rgb(242, 244, 250); 
