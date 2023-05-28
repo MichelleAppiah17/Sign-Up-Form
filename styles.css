@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
 body {
     font-family: Roboto, sans-serif;
+    height: 98vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .right {
+    height: 98vh;
     display: flex;
     flex-direction: column;
 }
 
 .left {
-    background-image: ;
+    height: 98vh;
+    width: 27vw;
 }
 .footer{
     position: absolute;
@@ -31,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25.6em;
+    width: 27vw;
 }
 
 p {
