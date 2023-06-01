@@ -8,7 +8,6 @@ body {
 }
 
 .right {
-    height: 98vh;
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +19,7 @@ body {
 .footer{
     position: absolute;
     bottom: 2px;
-    right: 52em;
+    left: 16%;
     color: white;
 }
 .link{
