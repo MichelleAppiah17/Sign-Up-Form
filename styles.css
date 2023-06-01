@@ -82,7 +82,7 @@ input {
     width: 200px;
     height: 20px;
     border-radius: 4px ;
-    border-color: rgb(147, 158, 158);
+    border-color: none ;
 }
 
 input:focus{
