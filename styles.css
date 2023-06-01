@@ -19,8 +19,9 @@ body {
 }
 .footer{
     position: absolute;
-    bottom: 2px;
-    left: 20%;
+    bottom: 1%;
+    left: 27%;
+    transform: translate(-50%,-50%);
     color: white;
 }
 .link{
