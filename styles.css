@@ -15,6 +15,7 @@ body {
 .left {
     height: 100%;
     width: 27vw;
+    overflow: hidden;
 }
 .footer{
     position: absolute;
